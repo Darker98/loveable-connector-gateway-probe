@@ -1,0 +1,12 @@
+{
+  "name": "gateway-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fault-injection REST API for testing Lovable's connector gateway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node selftest.js"
+  },
+  "engines": { "node": ">=18" }
+}
